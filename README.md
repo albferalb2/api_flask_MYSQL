@@ -26,14 +26,14 @@ mysql-connector-python
 
 📦 Instalación
 
-Clonar el repositorio
+1. Clonar el repositorio
 
-Instalar dependencias:
+2. Instalar dependencias:
 
 pip install flask mysql-connector-python
 
 
-Configurar la base de datos en main.py:
+3. Configurar la base de datos en main.py:
 
 db_config = {
     "host": "localhost",
@@ -43,7 +43,7 @@ db_config = {
 }
 
 
-Ejecutar:
+4. Ejecutar:
 
 python main.py
 
